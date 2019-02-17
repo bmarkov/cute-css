@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="CSS in Javascript">  
+<meta name="author" content="Boyko Markov and Smart contributors">
+<meta name="generator" content="Jekyll v3.8.5">
+<title>Cute - CSS in JS</title>
+<style>
+.bd-text-purple-bright {
+	color: #7952b3 !important;
+}
+.btn-secondary {
+	background: #7952b3 !important;
+	border-color: #7952b3 !important;
+}
+</style>
+<!-- Bootstrap core CSS -->
+<link href="https://getbootstrap.com/docs/4.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Documentation extras -->
+
+<link href="https://getbootstrap.com/docs/4.2/assets/css/docs.min.css" rel="stylesheet">
+<link href="https://www.htmlelements.io/styles/site.css" rel="stylesheet">
+<link href="https://www.htmlelements.io/source/styles/smart.default.css" rel="stylesheet">
+<script src="https://www.htmlelements.io/source/smart.core.js"></script>
+<script type="text/javascript" src="https://www.htmlelements.com/wp-content/design/assets/js/run_prettify.js"></script>
+   
+
+
+  </head>
+  <body>
+    <main class="bd-masthead" id="content" role="main">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-8 order-md-1 text-center text-md-left pr-md-5">
+        <h1 class="mb-3 bd-text-purple-bright">Cute</h1>
+        <p class="lead">
+          CSS in Javascript
+        </p>
+        <p class="lead mb-4">
+     <strong>Cute</strong> allows you to write CSS code in Javascript</p>
+	 
+        <ul>
+<li>Utilising tagged template literals (a recent addition to JavaScript) and the power of CSS.
+</li>
+<li>Automatic CSS - adds css to a web page on demand, fully automatically. Your users load the least amount of code necessary.
+</li>
+<li>No class name bugs - unique class names for your styles. You never have to worry about duplication or misspellings.</li>
+<li>Utilises tagged template literals to style your components</li>
+<li>Removes the mapping between components and styles</li>
+<li>FREE</li>
+</ul>
+		</p>
+        <div class="row mx-n2">
+          <div class="col-md-4 px-2">
+            <a href="https://github.com/bmarkov/cute-components/" class="btn btn-lg btn-secondary w-100 mb-3">Download</a>
+          </div>
+        </div>
+        <p class="text-muted mb-0">
+          Currently Cute 1.0. Only 4 KB
+        </p>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<div class="masthead-followup row m-0 border border-white">
+  <div class="col-12 col-md-12 p-3 p-md-5 bg-light border border-white">
+    <!-- Icon by Bytesize https://github.com/danklammer/bytesize-icons -->
+    <svg xmlns="http://www.w3.org/2000/svg" focusable="false" width="32" height="32" fill="none" stroke="currentcolor" stroke-width="2" class="text-primary mb-2" viewBox="0 0 32 32" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><title>Import</title><path d="M28 22v8H4v-8M16 4v20m-8-8l8 8 8-8"/></svg>
+
+    <h3>Installation</h3>
+    <p>Include cute.js files via npm.</p>
+
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh">npm <span class="nb">install </span>cute-components</code></pre></figure>
+
+   <hr class="half-rule">
+	<h3>Getting Started</h3>
+<p>With <code>Cute</code> you write CSS in Javascript. CSS is automatically injected into the page.</p>
+	
+<p class="codepen" data-height="265" data-theme-id="0" data-default-tab="js,result" data-user="boyko-markov" data-slug-hash="gqZpRE" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Cute">
+  <span>See the Pen <a href="https://codepen.io/boyko-markov/pen/gqZpRE/">
+  Cute</a> by Boyko Markov (<a href="https://codepen.io/boyko-markov">@boyko-markov</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<p>This example creates two simple components, a wrapper and a title, with some styles attached to it:
+</p>
+<h3>Styling multiple elements</h3>
+<p>We can use querySelector or querySelectorAll with <code>Cute</code> to style HTML Element or multiple HTML Elements with a single call.</p>
+<p class="codepen" data-height="265" data-theme-id="0" data-default-tab="js,result" data-user="boyko-markov" data-slug-hash="OdrVoL" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Cute Nav ">
+  <span>See the Pen <a href="https://codepen.io/boyko-markov/pen/OdrVoL/">
+  Cute Nav </a> by Boyko Markov (<a href="https://codepen.io/boyko-markov">@boyko-markov</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<h3>Adapting based on properties</h3>
+<p>Conditionally apply CSS</p>
+<p class="codepen" data-height="265" data-theme-id="0" data-default-tab="js,result" data-user="boyko-markov" data-slug-hash="BMvNGy" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Cute Buttons">
+  <span>See the Pen <a href="https://codepen.io/boyko-markov/pen/BMvNGy/">
+  Cute Buttons</a> by Boyko Markov (<a href="https://codepen.io/boyko-markov">@boyko-markov</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<br/>
+<p>Styling based on attributes. With <code>Cute</code>, you can add Conditional CSS based on attributes, class names or states.
+<ul>
+	<li>Property based:
+	<pre class="prettyprint">
+${properties => properties.secondary ? cute.css`
+	background: white;
+	color: #3F51B5;
+` : ''}
+	</pre>
+	</li>
+	<li>Attribute based:
+	<pre class="prettyprint">
+${attrThemed => cute.css`
+	background: white;
+	color: #3F51B5;
+`}
+	</pre>
+	</li>	
+	<li>Class Name based:
+	<pre class="prettyprint">
+${classNameThemed => cute.css`
+	background: white;
+	color: #3F51B5;
+`}
+	</pre>
+	</li>		
+	<li>Hover: 
+<pre class="prettyprint">
+${onhover => cute.css`
+	background: #fff;
+	color: #007ACC;
+	border-color: #007ACC;
+`} 
+</pre>	
+	</li>
+	<li>Active:
+<pre class="prettyprint">
+${onactive => cute.css`
+	background: #fff;
+	color: #444;
+	border-color: #444;
+`} 
+</pre>	
+	</li>	
+<li>Focus:
+<pre class="prettyprint">
+${onfocus => cute.css`
+	background: #fff;
+	color: #444;
+	border-color: #444;
+`} 
+</pre>	
+<li>Disabled:
+<pre class="prettyprint">
+${ondisabled => cute.css`
+	background: #ff0000;
+	color: #fff;
+	border-color: #ff0000;
+`} 
+</pre>	
+	</li>
+	</li>	
+</ul>
+</p>
+<h3>Extending Styles</h3>
+<p>Quite often you might want to use HTML Element, but change its Style slightly for a single case. To achieve that, you can call again the <code>cute</code> function.</p>
+<p class="codepen" data-height="265" data-theme-id="0" data-default-tab="js,result" data-user="boyko-markov" data-slug-hash="BMvjpr" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Cute Extending Styles">
+  <span>See the Pen <a href="https://codepen.io/boyko-markov/pen/BMvjpr/">
+  Cute Extending Styles</a> by Boyko Markov (<a href="https://codepen.io/boyko-markov">@boyko-markov</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+  </div> 
+  <p>We can see that the new OrangeButton still resembles Button, but has additional CSS rules applied.</p>
+</div>
+<h3>Cute with Custom Elements</h3>
+<p><code>Cute</code> can create and style Custom Elements. The example below shows how to dynamically create and style Custom Elements</p>
+<p class="codepen" data-height="265" data-theme-id="0" data-default-tab="js,result" data-user="boyko-markov" data-slug-hash="GzPZoY" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Cute Properties and Custom Elements">
+  <span>See the Pen <a href="https://codepen.io/boyko-markov/pen/GzPZoY/">
+  Cute Properties and Custom Elements</a> by Boyko Markov (<a href="https://codepen.io/boyko-markov">@boyko-markov</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+    <footer class="bd-footer text-muted">
+  <div class="container-fluid p-3 p-md-5">
+    <ul class="bd-footer-links">
+      <li><a href="https://github.com/htmlelements">GitHub</a></li>
+      <li><a href="examples/">Examples</a></li>
+    </ul>
+    <p>Designed and built by <a href="https://www.htmlelements.com/" target="_blank">https://www.htmlelements.com</a> </p>
+    <p>Currently v1.0.0. Code licensed Apache V2.0</p>
+  </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="scripts/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
