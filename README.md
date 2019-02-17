@@ -9,7 +9,9 @@
 
 ## Installation 
 
-```npm i cute-css
+```js
+npm i cute-css
+```
 
 [Live Demo ↗](https://bmarkov.github.io/cute-css/)
 
