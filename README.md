@@ -7,6 +7,11 @@
 
 # &lt;Cute&gt;
 
+## Installation 
+
+```npm i cute-css
+```
+
 [Live Demo ↗](https://bmarkov.github.io/cute-css/)
 
 ```
