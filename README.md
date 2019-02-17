@@ -1,4 +1,4 @@
-# [Cute CSS in JS]
+# Cute CSS in JS
 
 &nbsp;
 [![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/bmarkov/cute-css/blob/master/LICENSE)
