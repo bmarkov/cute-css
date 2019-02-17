@@ -1,4 +1,4 @@
-# [Cute CSS in JS](https://www.htmlelements.com) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Cute%20your%2020%20HTML Elements%20with%20JS%20based%20on%20Cute-CSS%20&url=https://github.com/bmarkov/cute-css//&via=cute&hashtags=cute,design,css,js,developers,webcomponents,customelements,polymer,material)
+# [Cute CSS in JS]
 
 &nbsp;
 [![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/bmarkov/cute-css/blob/master/LICENSE)
