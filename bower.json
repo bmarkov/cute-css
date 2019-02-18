@@ -1,0 +1,26 @@
+{
+  "name": "cute-css",
+  "authors": [
+    "Boyko Markov"
+  ],
+  "description": "Cute allows you to easily write CSS in JS to style HTML Elements and Custom Elements",
+  "license": "Apache-2.0",
+  "keywords": [
+     "css in js",
+     "css",
+     "js",
+     "css in javascript",
+     "dynamic css",
+     "web component"
+  ],
+  "main": "",
+  "ignore": [
+    "**/.*",
+    "**/node_modules",
+    "**/bower_components",
+    "**/tests"
+  ],
+  "dependencies": {
+ 
+  }
+}
